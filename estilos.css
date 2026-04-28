@@ -1,0 +1,81 @@
+Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffD700;
+}
+
+/* Encabezado */
+header {
+    background-color: #ffd700;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* SecciÃ³n de contenido */
+.contenido {
+    padding: 20px;
+    background-color: #add8e6;
+    margin: 20px;
+    border-radius: 10px;
+}
+/*imagenes*/
+.presentacion img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    
+}
+/*imagenes*/
+.presentacion img{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+/* Estilos para listas */
+ul {
+    list-style-type: square;
+    color: #333;
+}
+
+/* Pie de pÃ¡gina */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0056b3;
+}
